@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lista de tarefas</title>
+  <!-- project css-->
+  <link rel="stylesheet" href="style.css">
+  <!-- css font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- js project -->
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <h1>Lista de tarefas</h1>
+    </header>
+
+    <form class="TodoForm">
+      <h2>Adicione sua tarefa</h2>
+      <div class="form-control">
+        <input type="text" id="todo-input" maxlength="20" placeholder="O que você vai fazer?" value="" />
+        <button id="btn-Plus"><i class="fa-thin fa-plus"></i></button>
+      </div>
+    </form>
+
+
+
+    <div class="containerFilterSearch">
+      <form class="Todo-search">
+        <!-- <h2>Pesquisar:</h2>
+        <div class="search">
+          <input type="search" id="todo-search" placeholder="Buscar.." />
+          <button id="erase-button">
+            <i class="fa-solid fa-delete-left"></i>
+          </button>
+        </div> -->
+      </form>
+      <div class="filter">
+        <!--  <label for="filtro">
+          <h2>Filtrar:</h2>
+        </label> -->
+        <!--  <select id="opcoes">
+          <option value="all">Todos</option>
+          <option value="done">Feitos</option>
+          <option value="todo">A Fazer</option>
+        </select> -->
+      </div>
+    </div>
+
+
+  </div>
+  <div class="task-final">
+
+  </div>
+
+
+</body>
+
+</html>

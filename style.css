@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 ;
+  padding: 0;
+  height: 100vh;
+  background-image: url("./img/notepad-538870.jpg");
+  background-position: center center;
+  background-size: cover ;
+  background-repeat: no-repeat;  
+ 
+}
+
+.container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 17.75rem;
+  width: 25.125rem;
+  margin: 100px auto 10px;
+
+  backdrop-filter: blur(.3125rem);
+  border-radius: 1.5625rem;
+  box-shadow: .4375rem .625rem 4.5625rem .9375rem rgba(7, 162, 206, 0.699);
+  border: .4375rem solid #1f1942;
+}
+
+.TodoForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.containerFilterSearch {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+  clear: both;
+}
+
+header {
+  display: flex;
+  align-self: center;
+  margin-bottom: 1.25rem;
+}
+
+button {
+  height: 1.875rem;
+  width: 1.875rem;
+}
+
+input {
+  height: 1.875rem;
+}
+
+select {
+  height: 1.875rem;
+}
+
+.todo-list {
+  border: .4375rem solid #fd0404;
+  margin-top: 3.125rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.875rem;
+  align-items: center;
+  width: 25.125rem;
+  justify-content: space-around;
+  border-radius: 4.125rem 4.125rem 4.125rem 4.125rem; 
+  -moz-border-radius: 4.125rem 4.125rem 4.125rem 4.125rem;
+  -webkit-border-radius: 4.125rem 4.125rem 4.125rem 4.125rem;
+
+}
+
+.color-change{
+  border: .4375rem solid #08e938;
+  margin-top: 3.125rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.875rem;
+  align-items: center;
+  width: 25.125rem;
+  justify-content: space-around;
+  border-radius: 4.125rem 4.125rem 4.125rem 4.125rem; 
+  -moz-border-radius: 4.125rem 4.125rem 4.125rem 4.125rem;
+  -webkit-border-radius: 4.125rem 4.125rem 4.125rem 4.125rem;
+  text-decoration: line-through;
+  
+}
+
+.btn-taks {
+  display: flex;
+}
+
+.test {
+  color: black;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around ;
+
+}
+
+@keyframes myAnim {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+
+  10% {
+    animation-timing-function: ease-in;
+    transform: scale(0.91);
+  }
+
+  17% {
+    animation-timing-function: ease-out;
+    transform: scale(0.98);
+  }
+
+  33% {
+    animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+
+  45% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+}
+
+.color-red::-webkit-input-placeholder {
+  color: red;
+}
+
+.color-red2::-webkit-input-placeholder {
+  color: red;
+}
+
+@keyframes myAnim {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+
+  10% {
+    animation-timing-function: ease-in;
+    transform: scale(0.91);
+  }
+
+  17% {
+    animation-timing-function: ease-out;
+    transform: scale(0.98);
+  }
+
+  33% {
+    animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+
+  45% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+}
+
+.color-red {
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1affa3;
+  margin: 1.875rem auto;
+  height: 17.75rem;
+  width: 28.125rem;
+  padding: 1.5rem 0 1.5rem 0;
+  border-radius: 0.75rem 0.75rem 0.75rem 0.75rem;
+}
+header {
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  margin: 0.625rem;
+  gap: 1.25rem;
+}
+
+.TodoForm {
+  display: flex;
+  border-bottom: 1px solid gray;
+
+  height: 70px;
+  flex-direction: column;
+  margin-left: 0.625rem;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+.containerFilterSearch {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid gray;
+  height: 80px;
+  gap: 3.125rem;
+  margin: 0.625rem;
+  align-items: center;
+  padding-bottom: 15px;
+  justify-items: center;
+}
+
+.TodoForm h2 {
+  margin-bottom: 10px;
+}
+.search {
+  border-top: #ff3c1a;
+}
+
+
+input {
+  height: 30px;
+}
+select {
+  height: 30px;
+}
+ */
