@@ -10,11 +10,11 @@ body {
   flex-direction: column;
   margin: 0 ;
   padding: 0;
-  height: 100vh;
+  height: 100% ;
   background-image: url("./img/notepad-538870.jpg");
   background-position: center center;
-  background-size: cover ;
-  background-repeat: no-repeat;  
+  background-size: auto auto;
+  background-repeat: repeat-y;  
  
 }
 
@@ -182,71 +182,48 @@ select {
 }
 
 
+@media (max-width: 400px ) {
+  .container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 17.75rem;
+    width: 95vw;
+    margin: 100px auto 10px;  
+    backdrop-filter: blur(.3125rem);
+    border-radius: 1.5625rem;
+    box-shadow: .4375rem .625rem 4.5625rem .9375rem rgba(7, 162, 206, 0.699);
+    border: .4375rem solid #1f1942;
+  }
 
+  .todo-list {
+    border: .4375rem solid #fd0404;
+    margin-top: 3.125rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.875rem;
+    align-items: center;
+    width: 95vw;
+    justify-content: space-around;
+    border-radius: 4.125rem 4.125rem 4.125rem 4.125rem; 
+    -moz-border-radius: 4.125rem 4.125rem 4.125rem 4.125rem;
+    -webkit-border-radius: 4.125rem 4.125rem 4.125rem 4.125rem;
+  
+  }
 
+  body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 ;
+    padding: 0;
+    height: 100% ;
+    background-image: url("./img/notepad-538870.jpg");
+    background-position: center center;
+    background-size: auto auto; 
+    background-repeat: repeat-y;  
+  }
 
-
-
-
-
-
-
-
-/* .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #1affa3;
-  margin: 1.875rem auto;
-  height: 17.75rem;
-  width: 28.125rem;
-  padding: 1.5rem 0 1.5rem 0;
-  border-radius: 0.75rem 0.75rem 0.75rem 0.75rem;
+ 
 }
-header {
-  border-bottom: 1px solid gray;
-  display: flex;
-  justify-content: center;
-  margin: 0.625rem;
-  gap: 1.25rem;
-}
-
-.TodoForm {
-  display: flex;
-  border-bottom: 1px solid gray;
-
-  height: 70px;
-  flex-direction: column;
-  margin-left: 0.625rem;
-  align-items: baseline;
-  margin-bottom: 10px;
-}
-
-.containerFilterSearch {
-  display: flex;
-  flex-direction: row;
-  border-bottom: 1px solid gray;
-  height: 80px;
-  gap: 3.125rem;
-  margin: 0.625rem;
-  align-items: center;
-  padding-bottom: 15px;
-  justify-items: center;
-}
-
-.TodoForm h2 {
-  margin-bottom: 10px;
-}
-.search {
-  border-top: #ff3c1a;
-}
-
-
-input {
-  height: 30px;
-}
-select {
-  height: 30px;
-}
- */
